@@ -8,7 +8,7 @@
             Padding="30,0"
             Spacing="25">
             <Image
-                Source="dotnet_bot.png"
+                Source="combustivel.jpg"
                 HeightRequest="185"
                 Aspect="AspectFit"
                 SemanticProperties.Description="dot net bot in a race car number eight" />
@@ -19,7 +19,7 @@
             <Label Text="Preço da Gasolina" />
             <Entry x:Name="txt_gasolina" Placeholder="R$" />
 
-            <Button Text="Qual comensa mais?" Clicked="Button_Clicked" />
+            <Button Text="Calcular" Clicked="Button_Clicked" />
 
         </VerticalStackLayout>
     </ScrollView>
